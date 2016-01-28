@@ -1,0 +1,7 @@
+/* MAIN */
+  Develop & Main Design: Nabil Ahmad
+  Twitter: @Nabil5352
+
+/* SITE */
+  Doctype: HTML5
+  IDE: Sublime Text 2

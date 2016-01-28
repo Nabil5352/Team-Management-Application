@@ -1,0 +1,1106 @@
+/* START firstgird menu - workspace */
+#style{
+display: block;
+width: 100%;
+min-width: 0;
+cursor: pointer;
+word-wrap: break-word;
+white-space: normal;
+outline: 0;
+transform: rotateZ(0deg);
+background: #fff;
+padding: .8em 1.1em;
+color: rgba(0,0,0,.8);
+box-shadow: none;
+border: 1px solid rgba(39,41,43,.15);
+border-radius: .2857rem;
+transition: border-radius .1s ease,width .2s ease,box-shadow .2s ease,border .2s ease;
+line-height: 1em;
+text-align: left;
+}
+/* END OF firstgird menu - workspace */
+
+#border{
+	border: 1px solid red;
+}
+/*universal settings*/
+.hidden{
+	display: none;
+}
+
+.purple{
+	color: #564f8a;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.right_float{
+	float: right;
+}
+
+.leftfloat{
+	float: left;
+}
+
+
+/*index.php*/
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	font-style: normal;
+	font-family: "helvetica", arial;
+}
+
+#topmenu {
+	background: transparent !important;
+}
+
+#topmenu .item {
+	color: rgba(224, 123, 83, 1) !important;
+}
+
+#header{
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+#mainHead{
+	margin: 1% 20% 0 20%;
+	text-align: center;
+	line-height: 180%;
+}
+
+#signUp, #socialbars{
+	margin: 3% 20% 0 20%;
+}
+
+#signUp, #insideSignup{
+	overflow: hidden;
+}
+
+#mainHead .ui.header{
+	line-height: 200%;
+}
+
+#mainHead .ui.header .content{
+	font-size: 1.5em;
+}
+
+#mainHead .ui.header .content .sub{
+	font-size: .7em;
+}
+
+#mainHead .content{
+	color: #009fda;
+}
+
+#signUp{
+	padding: 2% 10%;
+	display: block;
+	overflow: hidden;
+}
+
+#signUp .ui.segment, .ui.label{
+	background-color: rgba(25, 108, 126, 0.78);
+}
+
+#socialbars div{
+	box-shadow: 0px 0px 5px #ffffff;
+}
+
+#signUp #signupbtn{
+    box-shadow: 0px 0px 5px #ffffff;
+    padding-right: 4em!important;
+  	padding-left: 4em!important;
+  	position: relative;
+  	
+  	background: 0 0!important;
+	color: rgba(0,0,0,.6)!important;
+	font-weight: 400;
+	border-radius: .2857rem;
+	text-transform: none;
+	text-shadow: none!important;
+	font-size: .92857143rem;
+	cursor: pointer;
+  	display: inline-block;
+  	min-height: 1em;
+  	outline: 0;
+  	vertical-align: baseline;
+  	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  	margin: 1em .25em 0 0;
+    line-height: 2;
+  	font-style: normal;
+  	text-align: center;
+
+  	text-decoration: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    box-sizing: border-box;
+
+}
+
+#otherEmail{
+	margin-bottom: 3%;
+}
+
+#others{
+	display: block;
+	clear: both;
+}
+
+#menu{
+	max-width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#logo{
+	width: 90px;
+	height: 40px;
+}
+
+#logoText{
+	width: 225px;
+	height: 60px;
+}
+
+#login{
+	left: 60%;
+	width: 50%;
+}
+
+#login .actions {
+	text-align: center !important;
+}
+
+#loginbutton{
+	float: right;
+	margin: 10px 50px 5px 0;
+	color: rgba(106, 211, 236, 0.99)!important;
+}
+
+#mainImage{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+}
+
+#footerlinks .item{
+	color: rgba(21, 183, 203, 1);
+	margin-top: 3%;
+}
+
+/*Email Message*/
+#emailmessagebody{
+	background-color: rgba(20, 50, 47, 1);
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+	text-align: center;
+	padding: 5% 5%;
+}
+
+#emailmessagebody #confirmlogo{
+	width: 40%;
+	height: auto;
+}
+
+/*welcome.php*/
+#welcomestp{
+	vertical-align: middle;
+}
+
+
+#welcomebody{
+	text-align: center;
+	line-height: 180%;
+}
+
+#welcomesegment{
+	margin: 1% 20%;
+	max-width: 60%;
+	min-height: 100%;	
+}
+
+#container{
+	overflow: hidden;
+}
+
+/*welcome2.php*/
+#choicecontainer{
+	overflow: hidden;
+}
+
+#welcomUserForm{
+	margin: 2% 25%;
+	width: 50%;
+}
+
+#SignUpTopText h2{
+	color: #5C5594;
+}
+
+#choicemenu{
+	margin-top: 3%;
+	width: 100%;
+}
+
+#choicemenu #leftChoice, #choicemenu #rightChoice{
+	display: inline-block;
+}
+
+#choicemenu a{
+	color: #ffffff;
+}
+
+/*welcome3.php*/
+#choicecontainer{
+	overflow: hidden;
+}
+
+#choicecontainer #images img, #choicecontainer #images p{
+	float: left;
+}
+
+#leaderimg{
+	margin-top: 1%;
+}
+
+#leaderimg{
+	color: #029FDA;
+}
+
+#topform, #downform{
+	margin-top: 1%;
+	width: 100%;
+}
+
+#topform h2, #downform h2{
+	display: inline-block;
+}
+
+#memberform #secondElement{
+	margin-left: 10px;
+}
+
+#memberform #mateemail{
+	margin-top: 10px;
+}
+
+/*welcome4*/
+#choicecontainer{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#teamname{
+	margin: 5% 0;
+}
+
+#dimmmerimg{
+	overflow: hidden;
+}
+
+/*workspace.php*/
+#workspacebody{
+	width: 100%;
+	height: 100%;
+	background-color: #E0E7EA;
+}
+
+#workspacebody #welImg{
+	margin: 0 auto;
+}
+
+#workspacebody #workspacegrid{
+	width: 100%;
+    height:100%; /* IE6: treaded as min-height*/
+	min-height: 100% !important;
+	margin: 0 auto;
+	padding: 0 1px;
+	border: 1px solid green;
+	/*overflow: hidden;*/
+}
+
+#workspacebody #workspacegrid #firstgrid{
+	padding-top: 0 !important;
+	padding-left: 0 !important;
+	padding-bottom: 0 !important;
+	min-height: 100%;
+}
+
+#messagebox #messagemenucontainer{
+	box-shadow: 0px 0 0 rgba(39,41,43,.15) !important;
+}
+
+#workspacebody #firstgrid #TopSeg{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	height: 100%;
+	overflow: auto;
+}
+
+#workspacebody #firstgrid #TopSeg #dropdownsetting{
+	float: right;
+	margin: 3% 2%;
+	padding: 0.2em !important;
+	font-size: 1.2rem !important;
+}
+
+#workspacebody #firstgrid #TopSeg #teamsearch{
+	margin: 2% auto;
+}
+
+#workspacebody #firstgrid #addprojecttext .addnewproject,
+#workspacebody #firstgrid #seg2companytxt .companyaddicon{
+	float: right;
+	padding: 0.2em !important;
+	font-size: 1.2rem !important;
+}
+
+#workspacebody #firstgrid #team1 #getstarted{
+	box-shadow: 0 0 0 2px rgba(39,41,43,0.15) inset!important;
+	color: rgba(0,0,0,1)!important;
+}
+
+#workspacebody #firstgrid #segment2, #firstgrid #segment3{
+	padding-top: 0 !important;
+	padding-bottom: .2em !important;
+}
+
+#workspacebody #firstgrid #seg2child1, #firstgrid #seg3child1{
+	padding: 1em 1em !important;
+}
+
+#workspacebody #segment2 #usersidemenu{
+	overflow: hidden;
+	padding-top: 0 !important;
+}
+
+#workspacebody #segment2 #team1{
+	overflow: hidden;
+}
+
+#workspacebody #segment2 #team1 #projectlabel .ui.label .detail{
+	opacity: 1.0 !important;
+}
+
+
+#workspacebody #segment2 .downmenu, #segment3 .downmenu{
+	padding: 0.3em 1.1em;
+}
+
+#workspacebody #segment2 #seg2companytxt{
+	margin-bottom: 5px;
+}
+
+#workspacebody #segment2 #seg2companytxt span{
+	color: rgb(42, 178, 136);
+}
+
+#workspacebody #segment2 #addprojecttext{
+	margin-bottom: 2%;
+	overflow: hidden;
+}
+
+#addproject #addprojectbtns{
+	padding-left: 0 !important;
+	padding-right: 0 !important; 
+}
+
+#addproject #addprojectbtns div{
+	float: left;
+}
+
+#addproject #addprojectbtns #feedicon,
+#addproject #addprojectbtns #bookmarkicon {
+	margin-left: 1%;
+}
+
+#addproject #addprojectbtns #sharemenu{
+	width: 375px !important;
+}
+
+#addproject #addprojectbtns #sharemenu .item:hover{
+	background: rgba(255, 255, 255, 1) !important;
+}
+
+#workspacebody #segment3 #seg3vertseg{
+	margin: 0 auto;
+}
+
+#workspacebody #segment3 #lowermenu, #segment3 #lowermenu #seg3vertseg .column{
+	padding: 0 !important;
+	text-align: center;
+}
+
+/*secondgrid*/
+
+ul.the-project, ul.the-task, ul.the-subtask{
+  list-style-type: none;
+}
+
+#workspacebody #workspacegrid #secondgrid{
+	width: 75% !important;
+	margin: 0;
+	/*box-shadow: 0px 0px 5px #ffffff;
+	background-color: #fefefe;*/
+	padding: 0 !important;
+	min-height: 100%;
+}
+
+#workspacebody #secondgrid #BottomSeg{
+	max-height: 100%;
+	overflow: auto;
+}
+
+#workspacebody #secondgrid #workspacemenutopsegment{
+	padding-top: 0 !important;
+}
+
+#workspacebody #secondgrid #workspacemenutopsegment #workspacemenu a.item{
+	opacity: 1;
+}
+
+#workspacebody #secondgrid #workspacemenutopsegment #workspacemenu a{
+	font-size: .84rem !important;
+}
+
+.stepsubmitbtn, #step2submitbtn1, #step2submitbtn2{
+	box-shadow: 0 0 rgba(39,41,43,.15) inset;
+	background-image: none;	
+	border: none;
+	border-radius: .2857rem;
+	cursor: pointer;
+	display: inline-block;	
+	font-size: 1rem;
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0 .25em 0 0;
+	min-height: 1em;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+  	text-shadow: none;
+  	text-transform: none;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    vertical-align: baseline;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.stepsubmitbtn{
+	background-color: #1b1c1d;
+	color: #0A96DA;
+	float: right;
+	padding: .78571em;
+	padding-right: 1.5em!important;
+	padding-left: 1.5em!important;
+	position: relative;
+}
+
+#step2submitbtn1, #step2submitbtn2{
+	color: #fff;
+	padding: .78571em 1.5em;
+}
+
+#step2submitbtn1{
+	background-color: #3b83c0;
+}
+
+#step2submitbtn2{
+	background-color: #564f8a;
+}
+
+
+/*overview.php*/
+#overviewboard{
+	font-size: .9rem;
+}
+#overviewgrid .column{
+	padding: 0 0 !important;
+}
+
+#overviewgrid .overviewtxt{
+	margin: 0 1em !important;
+}
+
+#overviewgrid .overviewbtn{
+	margin: 1em 1em !important;
+	float: right;
+}
+
+#overviewcontainer, #taskcontainer{
+	min-width: 900px;
+}
+
+#overviewcontainer #overviewboard{
+	overflow: hidden;
+}
+
+#overviewcontainer #overviewmenu{
+	margin: 0 auto%;
+}
+
+#overviewcontainer #overviewmenu .item{
+	font-size: .9rem;
+}
+
+#overviewboard #boardview{
+	z-index: 3;
+	overflow: hidden;
+	width: 90%;
+}
+
+#overviewcontainer #overviewboard #topsegment, 
+#overviewcontainer #overviewboard #middlesegment, 
+#overviewcontainer #overviewboard #bottomsegment{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	border: none !important; 
+}
+
+#overviewcontainer #overviewboard #middlesegment{
+	width: 100%;
+	border: 1px solid green;
+}
+
+#overviewboard #middlesegment #middleimg, #overviewboard #middlesegment #boardview{
+	float: left;
+}
+
+#overviewcontainer #overviewboard #topimg{
+	margin-bottom: -5px;
+	z-index: 5;
+	float: left;
+}
+
+#overviewcontainer #overviewboard #middleimg{
+	z-index: 4;
+	height: 10%;
+	width: 10%;
+}
+
+#overviewcontainer #overviewboard #bottomimg{
+	margin-top: -5px;
+	z-index: 5;
+	float: left;
+}
+
+#overviewcontainer #overviewboard #tpimgtxt, #overviewcontainer #overviewboard #btmimgtxt{
+	float: left;
+	margin: 2.5% 1%;
+}
+
+#overviewcontainer #overviewboard #btmbtns{
+	float: right;
+	margin: 2% 1%;
+}
+
+#overviewcontainer #overviewboard #tpimgtxt, #overviewcontainer #overviewboard #btmimgtxt{
+	color: rgb(129, 127, 127);
+}
+
+#overviewcontainer #overviewboard #tpimgtxt #tpstrtline{
+	color: rgb(91, 189, 114);
+}
+
+#overviewcontainer #overviewboard #btmimgtxt #btmdeadline{
+	color: rgb(213, 43, 43);
+}
+
+#overviewcontainer .noproject{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#overviewcontainer .noproject #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#overviewcontainer .noproject i.icon{
+	font-size: 4em !important;
+}
+
+/*task.php*/
+
+#taskcontainer #notask{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#taskcontainer #notask #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#taskcontainer #notask i.icon{
+	font-size: 4em !important;
+}
+
+#nosubtask{
+	text-align: center;
+}
+
+#addtoteammaterow #assigneeouterbox .selectassignee{
+	background: #fff;
+	border: 1px solid rgba(39,41,43,.15);
+	border-bottom-left-radius: 0!important;
+	border-bottom-right-radius: 0!important;
+	border-color: rgba(39,41,43,.15);
+	box-shadow: 0 0 4px 0 rgba(0,0,0,.08);
+	border-radius: .2857rem;
+	box-sizing: border-box;
+	color: rgba(0,0,0,.8);
+	cursor: pointer;
+	display: block;
+	font-size: .9em;
+	line-height: 1em;
+	min-width: 0;
+	outline: 0;
+	padding: .6em 1.1em;
+	position: relative;
+	text-align: center;
+	white-space: normal;
+	width: 100%;
+	word-wrap: break-word;
+	z-index: 10;
+}
+
+#createtask #createtaskmodal{
+	padding: 0 1em !important;
+}
+
+#createtask #createtaskmodal #createtaskmodaltbl td{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#createtask #createtaskmodal #createtaskmodaltbl #addtoteammaterow #text,
+#createtask #createtaskmodal #createtaskmodaltbl #addtoteammaterow #image,
+#createtask #createtaskmodal #createtaskmodaltbl #addtoteammaterow #assignbtn{
+	float: left;
+}
+
+#createtask #createtaskmodal #createtaskmodaltbl #addtoteammaterow #assignbtn{
+	margin-left: 2%;
+}
+
+#createtask #createtaskmodal #createtaskmodaltbl #addtoteammaterow #assignmebtn{
+	float: right;
+}
+
+#taskcontainer #taskexists{
+	margin: 0 2%;
+}
+ /*==== Edit Task ====*/
+
+#edittask #edittaskcontent{
+	padding-top: 0.5em;
+	margin-top: 4%;
+}
+
+#edittask #headerrows .row{
+	font-size: 12px;
+}
+
+#edittask #rowone{
+	border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+#edittask #headerrows #rowone,
+#edittask #headerrows #rowtwo,
+#edittask #headerrows #rowthree{
+	padding: 0 0;
+	margin-bottom: 10px;
+}
+
+#edittask #headerrows #rowone #assignrow,
+#edittask #headerrows #rowone #duerow,
+#edittask #headerrows #rowone #attachfilemenu{
+	font-size: .8rem;
+}
+
+#edittask #headerrows #rowone .column{
+	text-align: center;
+	vertical-align: middle;
+}
+
+#edittask #headerrows #assignrow #searchinput{
+	margin-top: .3em;
+	margin-bottom: .3em;
+}
+
+#edittask #headerrows #assignrow #assigneedivider{
+	margin: .
+	em 0;
+}
+
+#edittask #headerrows #assignrow #assigneelist{
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	overflow: auto;
+}
+
+#edittask #headerrows #rowone #attachdivider{
+	margin: .1em 0;
+}
+
+
+#edittask #headerrows #rowtwo,
+#edittask #headerrows #rowthree{
+	margin-left: 4%;
+}
+
+#edittask #headerrows #rowtwo a{
+	color: #4E5150;
+}
+
+#edittask #headerrows #rowthree h3{
+	margin: 0;
+}
+
+#edittask #contenttxt{
+	color: rgb(140, 135, 135);
+	font-size: .8em;
+	margin-left: 4%;
+	margin-bottom: 1%;
+}
+
+#edittask #contentdivider{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#edittask #contentcmnt #contentcmntinput{
+	min-height: 3em;
+	margin-bottom: 1%;
+}
+
+#edittask #contentbottomgrid{
+	margin-top: 3%;
+	margin: 0rem;
+}
+
+#edittask #contentbottomgrid .column{
+	padding: 0;
+}
+
+#edittask #contentbottomgrid #followerimgs img{
+	float: left;
+	margin-right: 2px;
+}
+
+/*milestones.php*/
+
+#milestonecontainer #nomilestone{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#milestonecontainer #nomilestone #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#milestonecontainer #nomilestone i.icon{
+	font-size: 4em !important;
+}
+
+/*files.php*/
+
+#filecontainer #nofile{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#filecontainer #nofile #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#filecontainer #nofile i.icon{
+	font-size: 4em !important;
+}
+
+/*notebooks.php*/
+
+#notebookcontainer #nonotebook{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#notebookcontainer #nonotebook #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#notebookcontainer #nonotebook i.icon{
+	font-size: 4em !important;
+}
+
+/*links.php*/
+
+#linkcontainer #nolink{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#linkcontainer #nolink #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#linkcontainer #nolink i.icon{
+	font-size: 4em !important;
+}
+
+/*people.php*/
+
+#peoplecontainer #nopeople{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#peoplecontainer #nopeople #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#peoplecontainer #nopeople i.icon{
+	font-size: 4em !important;
+}
+
+#cardItems{
+	width: 235px;
+}
+
+/*time.php*/
+
+#timecontainer #notime{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#timecontainer #notime #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#timecontainer #notime i.icon{
+	font-size: 4em !important;
+}
+
+/*message.php*/
+
+#messagecontainer #nomessage{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#messagecontainer #nomessage #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#messagecontainer #nomessage i.icon{
+	font-size: 4em !important;
+}
+
+/*=== inbox ===*/
+#messagecontainer #msgexist,
+#messagecontainer .subjectgrid{
+	margin: 0;
+}
+
+#messagecontainer #msgexist #firstrow,
+#messagecontainer #msgexist #secondrow{
+	border-bottom: 1px solid rgb(208, 219, 219);
+}
+
+#messagecontainer #msgexist #headertwelve,
+#messagecontainer #msgexist #headerfour{
+	font-size: 1.4rem;
+}
+
+#messagecontainer #msgexist #secondrow,
+#messagecontainer .subjectgrid .subjectgridrow{
+	padding-top: .3rem;
+	padding-bottom: .4rem;
+}
+
+#messagecontainer #msgexist #secondrow #secondrowtwelvecol,
+#messagecontainer #msgexist #secondrow #secondrowfourcol,
+#messagecontainer #msgexist #subjectsegment .floatrightfourcol,
+#messagecontainer #msgexist #subjectsegment .floatleftfourcol{
+	font-size: .8rem;
+}
+
+#messagecontainer #msgexist #subjectsegment .floatleftfourcol{
+	font-weight: bold;
+	margin-left: 3%;
+}
+
+#messagecontainer #msgexist #subjectsegment{
+	margin: 1% 2%;
+}
+
+#messagecontainer #msgexist .vertseg{
+	padding-top: 1%;
+	border-bottom: 1px solid rgb(11, 60, 166);
+}
+
+#messagecontainer #msgexist #secondrow #secondrowtwelvecol p{
+	margin-left: 5%;
+	font-weight: bold;
+}
+
+#messagecontainer #msgexist #secondrow #secondrowfourcol p{
+	color: rgb(105, 108, 106);
+}
+
+#messagecontainer #msgexist .subjectlist{
+	margin: 0 2%;;
+	font-size: small;
+}
+
+#messagecontainer #msgexist .subjectlist .item{
+	padding: 1%;
+}
+
+#messagecontainer #msgexist .subjectlist .namelink{
+	font-size: .88rem;
+	color: rgba(33, 74, 236, 0.8) !important;
+}
+
+
+#messagecontainer #msgexist .subjectlist .linktext{
+	font-size: .75rem;
+	color: rgb(132, 135, 140);
+}
+
+#messagecontainer #msgexist .subjectlist .listdesc{
+	font-size: .7rem;
+	color: rgb(144, 145, 145);
+}
+
+#messagecontainer #msgexist .subjectlist .bulletlist{
+	margin-left: 4%;
+	margin-top: 1%;
+}
+
+#messagecontainer #msgexist .subjectlist .bulletlist a{
+	font-size: .73rem;
+	font-weight: bolder;
+	color: rgb(64, 108, 202) !important;
+}
+
+.highlight{
+	background-color: rgba(106, 158, 58, 0.28) !important;
+	box-shadow: 0px 0px 5px rgba(22, 59, 176, 0.71) !important;
+}
+
+/*myproject.php*/
+
+#projectcontainer{
+	width: 100%;
+}
+
+#projectcontainer .noproject{
+	width: 50%;
+	margin: 5% 25%;
+	text-align: center;
+}
+
+#projectcontainer .noproject #titletxt{
+	color: rgb(129, 127, 127);
+	line-height: 2.33 !important;
+}
+
+#projectcontainer .noproject i.icon{
+	font-size: 4em !important;
+}
+
+#projectcontainer .noproject .noprojecticocolor{
+	color: #37A1C0!important;
+}
+
+#projectcontainer .noproject #createbtn{
+	background-color: #37A1C0;
+}
+
+#projectcontainer #projectexist #topsegment #topsegtwelve{
+	padding-bottom: 0.5em;
+}
+
+#projectcontainer #projectexist #topsegment #projectname{
+	font-size: 1.4rem;
+}
+
+#projectcontainer #projectexist #topsegment #projectdesc{
+	font-size: 1em;
+	margin-top: 10px;
+	color: rgb(141, 145, 155);
+}
+
+#projectcontainer #projectexist #topsegment #projectbtns{
+	text-align: center;
+}
+
+#projectcontainer #projectexist #topsegment #projectbtns #feedicon,
+#projectcontainer #projectexist #topsegment #projectbtns #bookmarkicon {
+	margin-left: 1%;
+}
+
+#projectcontainer #projectexist #topsegment #projectbtns #sharemenu{
+	width: 375px !important;
+	overflow: hidden;
+}
+
+#projectcontainer #projectexist #topsegment #projectbtns #sharemenu .item:hover{
+	background: rgba(255, 255, 255, 1) !important;
+}
+
+#projectcontainer #projectexist #middlesegment{
+	padding-top: 0.1em;
+	padding-bottom: 0;
+}
+
+#projectcontainer #projectexist #middlesegment #middleseggridcol{
+	padding-left: 1rem;
+}
+
+
+
+/*div{
+	border: 1px solid red;
+}*/
